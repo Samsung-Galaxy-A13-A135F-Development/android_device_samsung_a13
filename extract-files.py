@@ -10,17 +10,17 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/samsung/a21s-common',
+    'vendor/samsung/a13-common',
 ]
 
 module = ExtractUtilsModule(
-    'a21s',
+    'a13',
     'samsung',
     namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'a21s-common', module.vendor
+        module, 'a13-common', module.vendor
     )
     utils.run()

@@ -14,18 +14,18 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/a21s-common/BoardConfigCommon.mk
+include device/samsung/a13-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/a21s/BoardConfigVendor.mk
+include vendor/samsung/a13/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/a21s
+DEVICE_PATH := device/samsung/a13
 
 ## OTA TARGET
-TARGET_OTA_ASSERT_DEVICE := a21s
+TARGET_OTA_ASSERT_DEVICE := a13
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos850-a21snsxx_defconfig
+TARGET_KERNEL_CONFIG := exynos850-a13nsxx_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
