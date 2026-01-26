@@ -27,12 +27,12 @@ $(call inherit-product, device/samsung/a13/device.mk)
 TARGET_SCREEN_HEIGHT := 2408
 TARGET_SCREEN_WIDTH := 1080
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common pixelOS stuff
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a13
-PRODUCT_NAME := lineage_a13
+PRODUCT_NAME := cuustom_a13
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A135F
 PRODUCT_MANUFACTURER := samsung
