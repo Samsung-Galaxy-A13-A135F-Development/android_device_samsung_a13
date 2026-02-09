@@ -26,13 +26,14 @@ $(call inherit-product, device/samsung/a13/device.mk)
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 2408
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common CHerta stuff
+$(call inherit-product, vendor/cherta/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a13
-PRODUCT_NAME := lineage_a13
+PRODUCT_NAME := cherta_a13
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A135F
 PRODUCT_MANUFACTURER := samsung
