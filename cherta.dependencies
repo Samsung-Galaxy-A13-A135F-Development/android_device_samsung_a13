@@ -1,7 +1,0 @@
-[
-    {
-        "remote": "github",
-        "repository": "Samsung-Galaxy-A13-A135F-Development/android_device_samsung_a13-common",
-        "target_path": "device/samsung/a13-common"
-    }
-]
